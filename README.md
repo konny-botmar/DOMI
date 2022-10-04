@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-# DOMI
-proyecto creado en etapa final de curso con prospercity de front-end developer
-=======
-# domi
+# m
 
 ## Project setup
 ```
@@ -26,4 +22,3 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
->>>>>>> b440dd8 (init)
