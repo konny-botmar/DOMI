@@ -39,8 +39,6 @@ export default ({
       {
         imagen: 'https://i.postimg.cc/Qd0CwkLN/licores.png', descripcion: 'LICORES Y DULCES', modal: '#item8', modal_id: 'item8',
       }],
-      imagen: '',
-      descripcion: '',
     };
   }
 })
