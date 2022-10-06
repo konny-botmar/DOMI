@@ -5,8 +5,14 @@
     <div class="imagen-container">
         <!-- se realizo un ciclo for el cual va a iterar toda la lista
     mostrando la descripcion y la imagen -->
-        <div class="imagen-item imagen-8" v-for="i in imagenes" :key = i>
-            <img v-bind:src= "i.imagen" alt='no dio' v-bind:title= "i.descripcion">
+        <div class="imagen-item imagen-8" v-for="i in imagenes" :key ="i">
+            <router-link :to="i.ruta">
+            <img 
+              v-bind:src= "i.imagen" 
+              alt='no dio' 
+              v-bind:title= "i.descripcion"
+            />
+            </router-link>
             <h3 class="subtitle" >{{i.descripcion}}</h3>
         </div>
     </div>
@@ -16,28 +22,58 @@ export default ({
     data() {
     return {
       imagenes: [{
-        imagen: 'https://i.postimg.cc/BQ3vvw4Q/restaurante.webp', descripcion: 'RESTAURANTES', modal: '#item1', modal_id: 'item1',
+        imagen: 'https://i.postimg.cc/BQ3vvw4Q/restaurante.webp', descripcion: 'RESTAURANTES', 
+        modal: '#item1', 
+        modal_id: 'item1',
+        ruta: '',
       },
       {
-        imagen: 'https://i.postimg.cc/W3QhS2BM/comidas-rapidas.jpg', descripcion: 'COMIDAS RÁPIDAS', modal: '#item2', modal_id: 'item2',
+        imagen: 'https://i.postimg.cc/W3QhS2BM/comidas-rapidas.jpg', descripcion: 'COMIDAS RÁPIDAS', 
+        modal: '#item2', 
+        modal_id: 'item2',
+        ruta: '',
       },
       {
-        imagen: 'https://i.postimg.cc/x10q6p4F/market.png', descripcion: 'SUPERMERCADOS', modal: '#item3', modal_id: 'item3',
+        imagen: 'https://i.postimg.cc/x10q6p4F/market.png', 
+        descripcion: 'SUPERMERCADOS', 
+        modal: '#item3', 
+        modal_id: 'item3',
+        ruta: '',
       },
       {
-        imagen: 'https://i.postimg.cc/1z7gn0M7/carne.webp', descripcion: 'CARNES', modal: '#item4', modal_id: 'item4',
+        imagen: 'https://i.postimg.cc/1z7gn0M7/carne.webp', 
+        descripcion: 'CARNES', 
+        modal: '#item4', 
+        modal_id: 'item4',
+        ruta: '',
       },
       {
-        imagen: 'https://i.postimg.cc/ZYpR4hkM/verduras.jpg', descripcion: 'VERDURAS', modal: '#item5', modal_id: 'item5',
+        imagen: 'https://i.postimg.cc/ZYpR4hkM/verduras.jpg', 
+        descripcion: 'VERDURAS', 
+        modal: '#item5', 
+        modal_id: 'item5',
+        ruta: '',
       },
       {
-        imagen: 'https://i.postimg.cc/Dycw4dwQ/panaderia-2.png', descripcion: 'PANADERIAS', modal: '#item6', modal_id: 'item6',
+        imagen: 'https://i.postimg.cc/Dycw4dwQ/panaderia-2.png', 
+        descripcion: 'PANADERIAS', 
+        modal: '#item6', 
+        modal_id: 'item6',
+        ruta: '',
       },
       {
-        imagen: 'https://i.postimg.cc/gj8rTCp1/farmacia.webp', descripcion: 'FARMACIAS', modal: '#item7', modal_id: 'item7',
+        imagen: 'https://i.postimg.cc/gj8rTCp1/farmacia.webp', 
+        descripcion: 'FARMACIAS', 
+        modal: '#item7', 
+        modal_id: 'item7',
+        ruta: '',
       },
       {
-        imagen: 'https://i.postimg.cc/Qd0CwkLN/licores.png', descripcion: 'LICORES Y DULCES', modal: '#item8', modal_id: 'item8',
+        imagen: 'https://i.postimg.cc/Qd0CwkLN/licores.png', 
+        descripcion: 'LICORES Y DULCES', 
+        modal: '#item8', 
+        modal_id: 'item8',
+        ruta: '',
       }],
     };
   }
