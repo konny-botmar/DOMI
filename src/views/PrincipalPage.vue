@@ -3,6 +3,7 @@
   <VideoIntroductory/>
   <AllCategories/>
   <FeaturedStars/>
+  <TestimoniesIndex/>
   <FooterIndex/>
 </template>
 
@@ -12,5 +13,6 @@ import VideoIntroductory from '@/components/VideoIntroductory.vue';
 import AllCategories from '@/components/AllCategories.vue';
 import FooterIndex from '@/components/FooterIndex.vue';
 import FeaturedStars from '@/components/FeaturedStars.vue';
+import TestimoniesIndex from '@/components/TestimoniesIndex.vue';
 
 </script>
