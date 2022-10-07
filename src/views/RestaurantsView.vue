@@ -1,7 +1,7 @@
 <template>
     <HeaderIndex/>
-    <FooterIndex/>
     <RestaurantsCategories/>
+    <FooterIndex/>
 </template>
 <script setup>
     import HeaderIndex from '../components/HeaderIndex.vue'
