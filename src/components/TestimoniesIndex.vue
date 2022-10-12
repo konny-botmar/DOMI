@@ -1,21 +1,21 @@
 <template>
-    <section class="testimonies-container">
-        <h1 class="testimonies-title">
-        TESTIMONIOS
-        </h1>
-        <!-- se realizo un ciclo for el cual va a iterar toda la lista
-    mostrando la foto de quien da el testimonio y su testimonio acerca de la app -->
-        <div class="testimonies-grid">
-            <div class="testimony-item imagen-8" v-for="i in imagenes" :key ="i">
-                <img 
-                v-bind:src= "i.imagen" 
-                alt='no dio' 
-                v-bind:title= "i.descripcion"
-                />
-                <p class="testimony" >{{i.descripcion}} </p>
+        <section class="testimonies-container">
+            <h1 class="testimonies-title">
+            TESTIMONIOS
+            </h1>
+            <!-- se realizo un ciclo for el cual va a iterar toda la lista
+        mostrando la foto de quien da el testimonio y su testimonio acerca de la app -->
+            <div class="testimonies-grid">
+                <div class="testimony-item imagen-8" v-for="i in imagenes" :key ="i">
+                    <img 
+                    v-bind:src= "i.imagen" 
+                    alt='no dio' 
+                    v-bind:title= "i.descripcion"
+                    />
+                    <p class="testimony" >{{i.descripcion}} </p>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 </template>
 <script>
 export default ({

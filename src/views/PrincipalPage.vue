@@ -16,3 +16,8 @@ import FeaturedStars from '@/components/FeaturedStars.vue';
 import TestimoniesIndex from '@/components/TestimoniesIndex.vue';
 
 </script>
+
+<style scoped>
+  
+</style>
+

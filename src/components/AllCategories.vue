@@ -104,6 +104,12 @@ export default ({
     .imagen-item img{
         width: 180px;
         height: 180px;
+        transition: all 300ms;
+    }
+
+    .imagen-item img:hover{
+      transform: translateY(-20px);
+      transition: all 300ms;
     }
 
     .subtitle{

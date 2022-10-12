@@ -19,13 +19,16 @@ export default ({
 
 <style scoped>
 main{
-    margin-top: 10rem;
+    background-color: brown;
+    padding-top: 3rem;
     text-align: center;
+    padding-bottom: 0.5rem;
 }
 
 .title-initial-pag{
+    padding-bottom: 2.5rem;
     text-align: center;
-    color: brown;
+    color: white;
     font-weight: bold;
     font-size: 4rem;
 }

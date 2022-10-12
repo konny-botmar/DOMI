@@ -29,15 +29,13 @@ export default ({
     name: 'FooterIndex',
 })
 </script>
-<style scoped>
+<style >
     footer .footer-grid{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(7.5rem, 20rem));
     grid-auto-rows: 1fr;        
     gap: 5px;
-    margin-bottom: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-top: 2rem;
 }
 
 footer .footer-box{

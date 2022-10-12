@@ -1,6 +1,8 @@
-<template> 
+<template>
         <nav>
-            <img class="logo" src="../assets/logo.png" alt="">
+            <a href='/'>
+                <img class="logo" src="../assets/logo.png" alt="">
+            </a>
             <ul v-show="!mobileView" class="nav-right-section">
                 <li>
                     <a href="">
@@ -28,6 +30,7 @@
                 </a>
             </div>
         </nav>
+    <hr>
 </template>
 
 <script>
@@ -41,7 +44,7 @@ export default {
 }
 </script>
 
-<style>
+<style >
 a{
     text-decoration: none;
     cursor: pointer;
@@ -62,7 +65,7 @@ nav .logo {
 }
 
 nav .nav-right-section{
-    margin-top: 0.5rem;
+    margin-top: 1rem;
     margin-right: 3rem;
     width: 100%;
     height: auto ;
