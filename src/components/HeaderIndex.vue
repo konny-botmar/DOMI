@@ -30,7 +30,6 @@
                 </a>
             </div>
         </nav>
-    <hr>
 </template>
 
 <script>
