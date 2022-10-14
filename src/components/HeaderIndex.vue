@@ -1,7 +1,7 @@
 <template>
         <nav>
             <a href='/'>
-                <img class="logo" src="../assets/logo.png" alt="">
+                <img class="logo" src="../assets/new-logo.png" alt="">
             </a>
             <ul v-show="!mobileView" class="nav-right-section">
                 <li>

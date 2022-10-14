@@ -47,16 +47,17 @@
 
 <style scoped>
 h1{
-    padding-top: 10px;
+    padding-top: 50px;
     text-align: center;
-    background-color:  #d3d3d3bd;
+    background-color:  white;
 }
 .testimonies-container{
+    padding: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
-    background-color: #d3d3d3bd;
+    min-height: 70vh;
+    background-color: white;
     flex-wrap: wrap ;
 }
 
@@ -66,6 +67,8 @@ h1{
     height: 400px;
     background-color: white;
     border-radius: 5px;
+    border: 2px solid rgb(147, 21, 21, .5);
+    box-shadow: 0 5px 25px #F6DE80 ;
     overflow: hidden;
     transition: .5s;
     margin: 15px 20px;
@@ -94,7 +97,7 @@ h1{
     width: 150px;
     height: 150px;
     position: absolute;
-    background-color: white;
+    background-color: #F6DE80;
     padding: 5px;
     border-radius: 50%;
     bottom: -30%;
