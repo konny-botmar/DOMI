@@ -5,7 +5,13 @@
                 DOMI
             </h1>
             <div class="introductory-video">
-                <video  class="bg-video"  controls src="" type="video/mp4"></video>
+                <iframe 
+                    src="https://www.youtube.com/embed/bcJxpVp7Uds" 
+                    title="YouTube video player" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
             </div>
         </section>
     </main>
@@ -37,7 +43,7 @@ main section{
     position: relative;
 }
 
-section video.bg-video { 
+section iframe{ 
     position: relative;
     height: 45rem; 
     width: 100%;

@@ -12,7 +12,7 @@
             </div>
 
             <div class="description">
-                <h3>Sofia Agudelo</h3>
+                <h3>Natalia Torres</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores optio veritatis quas quaerat rerum necessitatibus ex fugiat dolorum officia quidem mollitia, totam accusantium saepe neque alias ea sequi deleniti!</p>
             </div>
         </div>
@@ -20,12 +20,12 @@
             <div class="head">
                 <div class="circle"></div>
                 <div class="img">
-                    <img src="https://www.cuerpomente.com/medio/2022/03/08/meritxell-garcia_f1be0453_1200x1200.jpg" alt="">
+                    <img src="../assets/person3.jpg" alt="">
                 </div>
             </div>
 
             <div class="description">
-                <h3>Sofia Agudelo</h3>
+                <h3>Oscar Ortiz</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores optio veritatis quas quaerat rerum necessitatibus ex fugiat dolorum officia quidem mollitia, totam accusantium saepe neque alias ea sequi deleniti!</p>
             </div>
         </div>
@@ -33,7 +33,7 @@
             <div class="head">
                 <div class="circle"></div>
                 <div class="img">
-                    <img src="https://www.cuerpomente.com/medio/2022/03/08/meritxell-garcia_f1be0453_1200x1200.jpg" alt="">
+                    <img src="../assets/person2.jpg" alt="">
                 </div>
             </div>
 

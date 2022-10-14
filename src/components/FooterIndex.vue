@@ -35,7 +35,8 @@ export default ({
     grid-template-columns: repeat(auto-fill, minmax(7.5rem, 20rem));
     grid-auto-rows: 1fr;        
     gap: 5px;
-    margin-top: 2rem;
+    padding: 2rem;
+    background-color:#F6DE80 ;
 }
 
 footer .footer-box{

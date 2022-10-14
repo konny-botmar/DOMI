@@ -53,7 +53,7 @@ nav{
     padding-top: 0px;
     width: 100%;
     height: 60px;
-    margin-top: 0px;
+    margin-top: 2px;
     display: flex; 
 }
 
@@ -104,7 +104,7 @@ nav .nav-right-section button{
     height: 2.6rem;
     border-radius: 1rem;
     color: white;
-    background-color: #C70D1A;
+    background-color: brown;
     border-color: beige;
     font-weight: bold;
     cursor: pointer;
