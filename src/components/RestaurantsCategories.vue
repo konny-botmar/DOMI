@@ -1,8 +1,10 @@
 <template>
+    <div class="title">
+      <h1 class="restaurants-title">
+          RESTAURANTES
+      </h1>
+    </div>
     <section class="restaurants-container">
-        <h1 class="restaurants-title">
-        RESTAURANTES
-        </h1>
         <div class="restaurants-grid">
             <div class="restaurants-item imagen-8" v-for="i in imagenes" :key ="i">
                 <img
@@ -48,18 +50,34 @@ export default ({
 </script>
 <style scoped>
 
+div .title{
+  background-color: brown;
+  height: 70px;
+}
+
 .restaurants-title{
-  margin-top: 3rem;
-  margin-bottom: 5rem;
+  padding-top: 10px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   text-align: center;
   font-size: 25px;
-  color: brown;
+  color: white;
   font-weight: bold;
+  justify-self: center;
 
+}
+
+section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
 }
 
 .restaurants-grid{
   display: grid;
+  width: 70%;
+  gap: 10px;
 }
 
 .restaurants-item{
@@ -69,6 +87,7 @@ export default ({
   grid-template-columns: 300px 400px;
   grid-auto-rows: 1fr;
   gap: 8px;
+  box-shadow:0 5px 25px brown ;
 }
 h3{
   align-self: center;

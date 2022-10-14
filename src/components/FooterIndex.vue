@@ -2,19 +2,19 @@
     <footer>
         <div class="footer-grid">
             <div class="footer-box">
-                <a class="footer-item" href="">Restaurantes</a>
-                <a class="footer-item" href="">Comidas Rápidas</a>
-                <a class="footer-item" href="">Supermercados</a>
+                <a class="footer-item" href="/Restaurantes">Restaurantes</a>
+                <a class="footer-item" href="/ComidasRapidas">Comidas Rápidas</a>
+                <a class="footer-item" href="/Supermercados">Supermercados</a>
             </div>
             <div class="footer-box">
-                <a class="footer-item" href="">Panaderías</a>
-                <a class="footer-item" href="">Carnes</a>
-                <a class="footer-item" href="">Verduras</a>
+                <a class="footer-item" href="/Panaderias">Panaderías</a>
+                <a class="footer-item" href="/Carnes">Carnes</a>
+                <a class="footer-item" href="/Verduras">Verduras</a>
             </div>
             <div class="footer-box">
-                <a class="footer-item" href="">Farmacias</a>
-                <a class="footer-item" href="">Licores y Más</a>
-                <a class="footer-item" href="">Restaurante Destacados</a>
+                <a class="footer-item" href="/Farmacias">Farmacias</a>
+                <a class="footer-item" href="/Licores">Licores y Más</a>
+                <a class="footer-item" href="">Restaurantes Destacados</a>
             </div>
             <div class="footer-box-right">
                 <a class="footer-item" href="">Ayuda</a>
@@ -36,6 +36,7 @@ export default ({
     grid-auto-rows: 1fr;        
     gap: 5px;
     padding: 2rem;
+    padding-left: 5rem;
     background-color:#F6DE80 ;
 }
 
