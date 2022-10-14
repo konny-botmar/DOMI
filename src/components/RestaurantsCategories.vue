@@ -8,9 +8,9 @@
         <div class="restaurants-grid">
             <div class="restaurants-item imagen-8" v-for="i in imagenes" :key ="i">
                 <img
-                v-bind:src= "i.imagen" 
-                alt='no dio' 
-                v-bind:title= "i.descripcion"
+                  v-bind:src= "i.imagen" 
+                  alt='no dio' 
+                  v-bind:title= "i.descripcion"
                 />
                 <h3>{{i.title}}</h3>
                 <img/>
@@ -29,6 +29,7 @@ export default ({
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item1', 
         modal_id: 'item1',
+        ruta: './Restaurantes',
       },
       {
         imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/6W4NBCLZ75DEFBCEUZHYDCNDZI.jpg',
@@ -53,11 +54,11 @@ export default ({
 div .title{
   background-color: brown;
   height: 70px;
+  margin-top: 0px;
 }
 
 .restaurants-title{
   padding-top: 10px;
-  margin-top: 4px;
   margin-bottom: 4px;
   text-align: center;
   font-size: 25px;
@@ -82,16 +83,23 @@ section {
 
 .restaurants-item{
   padding: 4px;
-  border: 1px solid;
   display: grid;
   grid-template-columns: 300px 400px;
   grid-auto-rows: 1fr;
   gap: 8px;
   box-shadow:0 5px 25px brown ;
+  transition: .3s;
 }
+
+.restaurants-item:hover{
+    box-shadow:0 5px 25px #F6DE80;
+    transform: translateY(-8px);
+}
+
 h3{
   align-self: center;
 }
+
 img{
   width: 100%;
   height: 100%;
