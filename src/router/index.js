@@ -1,6 +1,14 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import PrincipalPage from '../views/PrincipalPage.vue'
 import RestaurantsView from '../views/RestaurantsView.vue'
+import FastFoodView from '../views/FastFoodView.vue'
+import SuperMarketsView from '../views/SuperMarketsView.vue'
+import MeatsView from '../views/MeatsView.vue'
+import VegetablesView from '../views/VegetablesView.vue'
+import BakeriesView from '../views/BakeriesView.vue'
+import FarmacyView from '../views/FarmacyView.vue'
+import LiqueursView from '../views/LiqueursView.vue'
+
 
 
 const routes = [
@@ -17,37 +25,37 @@ const routes = [
   {
     path: '/ComidasRapidas',
     name: 'ComidasRapidas',
-    component: RestaurantsView
+    component: FastFoodView
   },
   {
     path: '/Supermercados',
     name: 'Supermercados',
-    component: RestaurantsView
+    component: SuperMarketsView
   },
   {
     path: '/Carnes',
     name: 'Carnes',
-    component: RestaurantsView
+    component: MeatsView
   },
   {
     path: '/Verduras',
     name: 'Verduras',
-    component: RestaurantsView
+    component: VegetablesView
   },
   {
     path: '/Panaderias',
     name: 'Panaderias',
-    component: RestaurantsView
+    component: BakeriesView
   },
   {
     path: '/Farmacias',
     name: 'Farmacias',
-    component: RestaurantsView
+    component: FarmacyView
   },
   {
     path: '/Licores',
     name: 'Licores',
-    component: RestaurantsView
+    component: LiqueursView
   },
 
 ]

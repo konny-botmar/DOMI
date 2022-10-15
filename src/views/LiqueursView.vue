@@ -1,11 +1,11 @@
 <template>
     <HeaderIndex/>
+    <LiqueursCategories/>
     <FooterIndex/>
-    <RestaurantsCategories/>
 </template>
 <script setup>
     import HeaderIndex from '../components/HeaderIndex.vue'
     import FooterIndex from '@/components/FooterIndex.vue';
-    import RestaurantsCategories from '@/components/RestaurantsCategories.vue';
+    import LiqueursCategories from '@/components/LiqueursCategories.vue';
 
 </script>
