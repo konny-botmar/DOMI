@@ -24,23 +24,23 @@ export default ({
     data() {
     return {
       imagenes: [{
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg',
-        title:'De la montaña',
+        imagen: 'https://www.plantadoce.com/files/2020/20_recursos/equipamiento/farmacia-productos-728.jpg',
+        title:'Donde Mauricio',
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item1', 
         modal_id: 'item1',
         ruta: './Restaurantes',
       },
       {
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/6W4NBCLZ75DEFBCEUZHYDCNDZI.jpg',
-        title:'La tablita', 
+        imagen: 'https://retailers.mx/revista/wp-content/uploads/2021/07/counter.-juarez-coacalco.23062021.-by.arocha100.jpg',
+        title:'Drogas la Rebaja', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item2', 
         modal_id: 'item2',
       },
       {
-        imagen: 'https://media-cdn.tripadvisor.com/media/photo-s/0b/05/aa/05/pimento-cucina-italiana.jpg',
-        title:'Tahona', 
+        imagen: 'https://todocedritos.com/empresas_negocios_establecimientos_cedritos_bogota/drogueria-papeleria-lisboa-farmacia-cedritos-bogota-200b.jpg',
+        title:'Drogueria Mercaldas', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item3', 
         modal_id: 'item3',

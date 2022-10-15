@@ -101,8 +101,8 @@ h3{
 }
 
 img{
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   grid-area: 1/1/3/2;
 }

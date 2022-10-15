@@ -9,7 +9,7 @@
             <div class="fast-item imagen-8" v-for="i in imagenes" :key ="i">
                 <img
                   v-bind:src= "i.imagen" 
-                  alt='fotografía de una carniceria' 
+                  alt='fotografía de un lugar de comidas rápidas' 
                   v-bind:title= "i.descripcion"
                 />
                 <h3>{{i.title}}</h3>
@@ -24,23 +24,23 @@ export default ({
     data() {
     return {
       imagenes: [{
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg',
-        title:'De la montaña',
+        imagen: 'https://laverdad.com.mx/wp-content/uploads/2020/07/comida.jpg',
+        title:'La Gula',
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item1', 
         modal_id: 'item1',
         ruta: './Restaurantes',
       },
       {
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/6W4NBCLZ75DEFBCEUZHYDCNDZI.jpg',
-        title:'La tablita', 
+        imagen: 'https://i.pinimg.com/200x150/20/9b/06/209b06015142db3dc26aab0ac0ca12dd.jpg',
+        title:'Plaza Café', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item2', 
         modal_id: 'item2',
       },
       {
-        imagen: 'https://media-cdn.tripadvisor.com/media/photo-s/0b/05/aa/05/pimento-cucina-italiana.jpg',
-        title:'Tahona', 
+        imagen: 'https://laopinion.com/wp-content/uploads/sites/3/2021/11/McDonalds-ready-made-en-Pexels-1.jpg?quality=80&strip=all&w=1200',
+        title:'El Parque', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item3', 
         modal_id: 'item3',
@@ -101,8 +101,8 @@ h3{
 }
 
 img{
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   grid-area: 1/1/3/2;
 }

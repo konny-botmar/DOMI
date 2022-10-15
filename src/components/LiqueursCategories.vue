@@ -24,23 +24,22 @@ export default ({
     data() {
     return {
       imagenes: [{
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg',
-        title:'De la montaña',
+        imagen: 'https://lh3.googleusercontent.com/p/AF1QipOLldIVfC0eSqn1TSg7fYQ2FNqgEUmF-qpMwYlU=w1080-h608-p-k-no-v0',
+        title:'Mekatos',
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item1', 
         modal_id: 'item1',
-        ruta: './Restaurantes',
       },
       {
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/6W4NBCLZ75DEFBCEUZHYDCNDZI.jpg',
-        title:'La tablita', 
+        imagen: 'https://lh3.googleusercontent.com/p/AF1QipON7HGs7lB32_HCnNc1Z4FRYRg2Rm0cfZIzqFj0=w768-h768-n-o-v1',
+        title:'Juka', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item2', 
         modal_id: 'item2',
       },
       {
-        imagen: 'https://media-cdn.tripadvisor.com/media/photo-s/0b/05/aa/05/pimento-cucina-italiana.jpg',
-        title:'Tahona', 
+        imagen: 'https://http2.mlstatic.com/D_NQ_NP_870537-MCO51742267360_092022-O.jpg',
+        title:'Dulces y Más', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item3', 
         modal_id: 'item3',
@@ -101,8 +100,8 @@ h3{
 }
 
 img{
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   grid-area: 1/1/3/2;
 }

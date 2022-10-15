@@ -14,7 +14,7 @@
                 />
                 <h3>{{i.title}}</h3>
                 <img/>
-                <p class="testimony" >{{i.descripcion}} </p>
+                <p class="description" >{{i.descripcion}} </p>
             </div>
         </div>
     </section>
@@ -24,23 +24,22 @@ export default ({
     data() {
     return {
       imagenes: [{
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg',
-        title:'De la montaña',
+        imagen: 'https://media.cdnp.elobservador.com.uy/adjuntos/181/imagenes/004/291/0004291315.jpg?&cw=350',
+        title:'Mil Carnes',
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item1', 
         modal_id: 'item1',
-        ruta: './Restaurantes',
       },
       {
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/6W4NBCLZ75DEFBCEUZHYDCNDZI.jpg',
-        title:'La tablita', 
+        imagen: 'https://image.shutterstock.com/image-photo/young-smiling-butcher-wearing-red-260nw-1846038997.jpg',
+        title:'El Rey De La Carne', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item2', 
         modal_id: 'item2',
       },
       {
-        imagen: 'https://media-cdn.tripadvisor.com/media/photo-s/0b/05/aa/05/pimento-cucina-italiana.jpg',
-        title:'Tahona', 
+        imagen: 'https://nombresparanegocios.org/wp-content/uploads/2021/07/Nombres-para-carniceri%CC%81as-398x267.png',
+        title:'Carnitas', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item3', 
         modal_id: 'item3',
@@ -101,8 +100,8 @@ h3{
 }
 
 img{
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   grid-area: 1/1/3/2;
 }

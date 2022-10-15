@@ -24,23 +24,22 @@ export default ({
     data() {
     return {
       imagenes: [{
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg',
-        title:'De la montaña',
+        imagen: 'https://canaltrece.com.co/uploads/newsarticle/3c355c8d3b444d538089ac92a3503f0c/Panaderia-pan-colombia.jpg',
+        title:'Donde Salento',
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item1', 
         modal_id: 'item1',
-        ruta: './Restaurantes',
       },
       {
-        imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/6W4NBCLZ75DEFBCEUZHYDCNDZI.jpg',
-        title:'La tablita', 
+        imagen: 'https://portales.vilbo.com/files/uploads/images/articulos/book%20dulcypas%2018/babette.jpg',
+        title:'La Bogotana', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item2', 
         modal_id: 'item2',
       },
       {
-        imagen: 'https://media-cdn.tripadvisor.com/media/photo-s/0b/05/aa/05/pimento-cucina-italiana.jpg',
-        title:'Tahona', 
+        imagen: 'https://agenciaajn.com/new/wp-content/uploads/2018/01/panader%C3%ADa.jpg',
+        title:'Pam', 
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item3', 
         modal_id: 'item3',
@@ -101,8 +100,8 @@ h3{
 }
 
 img{
-  width: 100%;
-  height: 100%;
+  width: 300px;
+  height: 200px;
   object-fit: cover;
   grid-area: 1/1/3/2;
 }
