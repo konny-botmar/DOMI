@@ -8,6 +8,7 @@ import VegetablesView from '../views/VegetablesView.vue'
 import BakeriesView from '../views/BakeriesView.vue'
 import FarmacyView from '../views/FarmacyView.vue'
 import LiqueursView from '../views/LiqueursView.vue'
+import StoreView from '../views/StoreView.vue'
 
 
 
@@ -56,6 +57,11 @@ const routes = [
     path: '/Licores',
     name: 'Licores',
     component: LiqueursView
+  },
+  {
+    path: '/Store',
+    name: 'store',
+    component: StoreView
   },
 
 ]
