@@ -10,6 +10,7 @@ import FarmacyView from '../views/FarmacyView.vue'
 import LiqueursView from '../views/LiqueursView.vue'
 import StoreView from '../views/StoreView.vue'
 import UserLogin from '../views/UserLogin.vue'
+import UserRegister from '../views/UserRegister.vue'
 
 
 
@@ -69,6 +70,11 @@ const routes = [
     path: '/Login',
     name: 'login',
     component: UserLogin
+  },
+  {
+    path: '/Register',
+    name: 'Register',
+    component: UserRegister
   },
   
 

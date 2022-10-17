@@ -23,7 +23,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/Login">
+                    <a href="/Register">
                         <button class="check-in">REGISTRAR</button>
                     </a>
                 </li>

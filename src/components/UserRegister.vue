@@ -2,18 +2,28 @@
     <hr>
     <section>
         <div class="login">
-                <h1 class="titulo">INGRESAR</h1>
+                <h1 class="titulo">REGISTRAR</h1>
                 <p>
-                    Usuario
-                    <input type="text" placeholder="Usuario" class="ancho input" />
+                    Nombres
+                    <input type="text" placeholder="Nombres completos" class="ancho input" />
                 </p>
                 <p>
-                    Crontraseña
+                    Correo electronico
+                    <input type="email" placeholder="example@gmail.com" class="ancho input" />
+                    <a>El correo electrónico es válido</a>
+                </p>
+                <p>
+                    Contraseña
                     <input type="password" placeholder="********" class="ancho input" />
-                    <a href="">He olvidado mi clave</a>
+                    <a>La contraseña es válida</a>
                 </p>
-                <button class="ancho boton">Ingresar</button>
-                <div class="recuperar"><a  href="">No tengo una cuenta registrada</a></div>
+                <p>
+                    Confirmar Contraseña
+                    <input type="password" placeholder="********" class="ancho input" />
+                    <a>La contraseña coincide</a>
+                </p>
+                <button class="ancho boton">Registrar</button>
+                <div class="recuperar"><a  href="">Ya tengo una cuenta</a></div>
             </div>
         </section>
     <hr>	
@@ -25,7 +35,7 @@ hr{
 }
 
 section{
-    background-image: linear-gradient(105deg, brown 5%, #F6DE80 140%);
+    background-image: linear-gradient(90deg, brown 5%, #F6DE80 140%);
     width:100%;
     height: 560px;
     padding-top: 20px;
@@ -34,8 +44,8 @@ section{
 }
 
 .login {
-	width: 400px;
-	height: 420px;
+	width: 420px;
+	height: 460px;
 	padding-left: 10px;
 	margin:auto;
 	padding-right: 20px;
@@ -48,8 +58,10 @@ section{
 
 .titulo{
     text-align: center;
-}
-
+    margin: auto;
+    width: 30%;
+    font-size: 25px;
+} 
 .ancho {
 	width: 100%;
 	height: 25px;
@@ -75,8 +87,8 @@ button{
     font-size: 18px;
 }
 
-a{
-    color:brown;
+p a{
+    color: rgb(62, 120, 62);
 }
 .recuperar {
 	margin: auto;
@@ -84,10 +96,9 @@ a{
 	margin-top: 10px;
     text-align: center;
 }
-.titulo {
-    margin: auto;
-    margin-top: 50px;
-    width: 30%;
-    font-size: 25px;
-}   
+
+.recuperar a{
+    color: brown;
+}
+  
 </style>
