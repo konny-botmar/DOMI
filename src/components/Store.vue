@@ -52,13 +52,13 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis tenetur iste quisquam laborum. Quis, vel qui incidunt eligendi nulla voluptatum, aspernatur temporibus delectus assumenda ipsa dolor reiciendis magnam facere.</p>
                     </div>
                     <div class="recomended-item">
-                        <img src="https://easyrecetas.com/wp-content/uploads/2020/02/Receta-de-Camarones-con-Arroz.jpg" alt="">
-                        <h3>Arroz con camarones</h3>
+                        <img src="https://t1.rg.ltmcdn.com/es/posts/8/5/3/magret_de_pato_al_horno_53358_orig.jpg" alt="">
+                        <h3>Pato al horno</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis tenetur iste quisquam laborum. Quis, vel qui incidunt eligendi nulla voluptatum, aspernatur temporibus delectus assumenda ipsa dolor reiciendis magnam facere.</p>
                     </div>
                     <div class="recomended-item">
-                        <img src="https://easyrecetas.com/wp-content/uploads/2020/02/Receta-de-Camarones-con-Arroz.jpg" alt="">
-                        <h3>Arroz con camarones</h3>
+                        <img src="https://i.pinimg.com/originals/fb/df/9b/fbdf9be273386a084adaa5ec35723efd.jpg" alt="">
+                        <h3>Filete de cerdo</h3>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis tenetur iste quisquam laborum. Quis, vel qui incidunt eligendi nulla voluptatum, aspernatur temporibus delectus assumenda ipsa dolor reiciendis magnam facere.</p>
                     </div>
                 </div>
@@ -260,6 +260,11 @@ form{
     border: 2px solid #F6DE80;
     box-shadow: 0px 0px 4px 4px #F6DE80;
   }
+
+  .recomended-item:hover{
+    box-shadow:0 5px 15px rgb(147, 21, 21, .5) ;
+    transform: translateY(-15px);
+}
 
   .recomended-item img{
     width: 250px;

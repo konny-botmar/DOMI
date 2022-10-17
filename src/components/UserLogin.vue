@@ -13,7 +13,7 @@
                     <a href="">He olvidado mi clave</a>
                 </p>
                 <button class="ancho boton">Ingresar</button>
-                <div class="recuperar"><a  href="">No tengo una cuenta registrada</a></div>
+                <div class="recuperar"><a  href="/Register">No tengo una cuenta registrada</a></div>
             </div>
         </section>
     <hr>	

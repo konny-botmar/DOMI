@@ -23,7 +23,7 @@
                     <a>La contraseña coincide</a>
                 </p>
                 <button class="ancho boton">Registrar</button>
-                <div class="recuperar"><a  href="">Ya tengo una cuenta</a></div>
+                <div class="recuperar"><a  href="/Login">Ya tengo una cuenta</a></div>
             </div>
         </section>
     <hr>	
