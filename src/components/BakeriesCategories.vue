@@ -13,7 +13,6 @@
                   v-bind:title= "i.descripcion"
                 />
                 <h3>{{i.title}}</h3>
-                <img/>
                 <p class="description" >{{i.descripcion}} </p>
             </div>
         </div>

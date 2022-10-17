@@ -6,15 +6,18 @@
     </div>
     <section class="restaurants-container">
         <div class="restaurants-grid">
-            <div class="restaurants-item imagen-8" v-for="i in imagenes" :key ="i">
+            <div class="restaurants-item" v-for="i in imagenes" :key ="i">
+              <router-link :to="i.ruta">
                 <img
                   v-bind:src= "i.imagen" 
                   alt='no dio' 
                   v-bind:title= "i.descripcion"
                 />
+              </router-link>
+              <router-link class="info" :to="i.ruta">
                 <h3>{{i.title}}</h3>
-                <img/>
-                <p class="testimony" >{{i.descripcion}} </p>
+                <p class="description" >{{i.descripcion}} </p>
+              </router-link>
             </div>
         </div>
     </section>
@@ -29,7 +32,7 @@ export default ({
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item1', 
         modal_id: 'item1',
-        ruta: './Restaurantes',
+        ruta: '/Store',
       },
       {
         imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/6W4NBCLZ75DEFBCEUZHYDCNDZI.jpg',
@@ -37,6 +40,7 @@ export default ({
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item2', 
         modal_id: 'item2',
+        ruta: '/Restaurantes',
       },
       {
         imagen: 'https://media-cdn.tripadvisor.com/media/photo-s/0b/05/aa/05/pimento-cucina-italiana.jpg',
@@ -44,6 +48,7 @@ export default ({
         descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
         modal: '#item3', 
         modal_id: 'item3',
+        ruta: '/Panaderias',
       },],
     };
   }
@@ -96,8 +101,21 @@ section {
     transform: translateY(-8px);
 }
 
-h3{
+.restaurants-item .info{
+  width: 500px;
+}
+
+.info h3{
+  padding: 20px;
   align-self: center;
+  color: black;
+  text-decoration: none;
+}
+
+.info p{
+  color: black;
+  text-align: justify;
+  padding: 10px;
 }
 
 img{
