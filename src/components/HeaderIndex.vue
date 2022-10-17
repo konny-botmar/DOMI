@@ -18,10 +18,14 @@
                     <input id="icon" style="text-indent:17px;" type="text"  placeholder="¿Que buscas?">   
                 </li>
                 <li>
-                    <button class="login">INGRESAR</button>
+                    <a href="/Login">
+                        <button  class="login"  >INGRESAR</button>
+                    </a>
                 </li>
                 <li>
-                    <button class="check-in">REGISTRAR</button>
+                    <a href="/Login">
+                        <button class="check-in">REGISTRAR</button>
+                    </a>
                 </li>
             </ul>
             <div v-show="!showNav">

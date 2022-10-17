@@ -9,6 +9,8 @@ import BakeriesView from '../views/BakeriesView.vue'
 import FarmacyView from '../views/FarmacyView.vue'
 import LiqueursView from '../views/LiqueursView.vue'
 import StoreView from '../views/StoreView.vue'
+import UserLogin from '../views/UserLogin.vue'
+
 
 
 
@@ -63,6 +65,12 @@ const routes = [
     name: 'store',
     component: StoreView
   },
+  {
+    path: '/Login',
+    name: 'login',
+    component: UserLogin
+  },
+  
 
 ]
 
