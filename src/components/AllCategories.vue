@@ -6,13 +6,13 @@
         <!-- se realizo un ciclo for el cual va a iterar toda la lista
     mostrando la descripcion y la imagen -->
         <div class="imagen-item imagen-8" v-for="i in imagenes" :key ="i">
-            <router-link :to="i.ruta">
+            <a :href="i.ruta">
             <img 
               v-bind:src= "i.imagen" 
               alt='no dio' 
               v-bind:title= "i.descripcion"
             />
-            </router-link>
+            </a>
             <h3 class="subtitle" >{{i.descripcion}}</h3>
         </div>
     </div>

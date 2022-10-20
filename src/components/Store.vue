@@ -49,17 +49,18 @@
                     <div class="recomended-item">
                         <img src="https://easyrecetas.com/wp-content/uploads/2020/02/Receta-de-Camarones-con-Arroz.jpg" alt="">
                         <h3>Arroz con camarones</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis tenetur iste quisquam laborum. Quis, vel qui incidunt eligendi nulla voluptatum, aspernatur temporibus delectus assumenda ipsa dolor reiciendis magnam facere.</p>
+                        <p>Este arroz es una de nuestras especialidades con sabores chinos y verduras salteadas. No te pierdas un platillo en el que los camarones son protagonistas y haran que tu dia sea más increible.
+                        </p>
                     </div>
                     <div class="recomended-item">
                         <img src="https://t1.rg.ltmcdn.com/es/posts/8/5/3/magret_de_pato_al_horno_53358_orig.jpg" alt="">
                         <h3>Pato al horno</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis tenetur iste quisquam laborum. Quis, vel qui incidunt eligendi nulla voluptatum, aspernatur temporibus delectus assumenda ipsa dolor reiciendis magnam facere.</p>
+                        <p>El pato al horno en un platillo esquisito que no podrás encontrar en cualquier lugar su cocción lenta permite que el magre de pato quede perfectamente cocido y jugoso lo acompañanos con una salsa de la casa y un arroz a la cocacola.</p>
                     </div>
                     <div class="recomended-item">
                         <img src="https://i.pinimg.com/originals/fb/df/9b/fbdf9be273386a084adaa5ec35723efd.jpg" alt="">
                         <h3>Filete de cerdo</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione facilis tenetur iste quisquam laborum. Quis, vel qui incidunt eligendi nulla voluptatum, aspernatur temporibus delectus assumenda ipsa dolor reiciendis magnam facere.</p>
+                        <p>El filete de cerdo es un platillo para los amantes de las carnes magras y suaves, este filete viene confitado en mantequilla con binagre balsamico y acompañado de una ensalada especial dulce y unas deliciosas crocretas de yuca.</p>
                     </div>
                 </div>
             </section>
@@ -72,21 +73,21 @@
       imagenes: [{
         imagen: 'https://www.cardamomo.news/__export/1611701029154/sites/debate/img/2021/01/26/receta_de_costillas_de_cerdo_agridulce_estilo_oriental_crop1611700668865.jpeg_1753094345.jpeg',
         title:'Lomo de cerdo en salsa agridulce',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'El plato consiste en cerdo cortado en pequeñas piezas cuadradas y posteriormente frito ligeramente, para ser stir-fried en una salsa elaborada a base de azúcar o miel, kétchup, vinagre blanco, y salsa de soja, junto con ingredientes adicionales como piña, pimiento, zanahorias y cebollas bien picadas.', 
         modal: '#item1', 
         modal_id: 'item1',
       },
       {
         imagen: 'https://www.recetin.com/wp-content/uploads/2015/04/pollo.jpg',
         title:'Pechuga en salsa de champiñones', 
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'El plato consiste en una pechuga asada en el mismo aceite de los champiñones asi su saber se vera realzado y esta bañada en una salsa de crema de leche con champiñones.', 
         modal: '#item2', 
         modal_id: 'item2',
       },
       {
         imagen: 'https://images.aws.nestle.recipes/original/422196dee3ad3b208c8c51ed3a26df48_BISTECK-A-CABALLO-2.jpg',
         title:'Bistec a caballo', 
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'El bistec a caballo es para personas que le gusten los sabores imponentes y deliciosos es un magnifico corte de carne con un riogo encima y un huevo frito que hace las veces de salsa.', 
         modal: '#item3', 
         modal_id: 'item3',
       },],

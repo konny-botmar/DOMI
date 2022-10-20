@@ -26,7 +26,7 @@ export default ({
       imagenes: [{
         imagen: 'https://laverdad.com.mx/wp-content/uploads/2020/07/comida.jpg',
         title:'La Gula',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'Quieres algo rapido pero delicioso aqui en la gula tenemos variedad de platillos de comida rápida con toques de alta cocina, ven y disfrutalos.', 
         modal: '#item1', 
         modal_id: 'item1',
         ruta: './Restaurantes',
@@ -34,7 +34,7 @@ export default ({
       {
         imagen: 'https://i.pinimg.com/200x150/20/9b/06/209b06015142db3dc26aab0ac0ca12dd.jpg',
         title:'Plaza Café', 
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'Te brindaremos muchas opciones desde pollo broaster, ensaladas y heladeria para disfrutar en cualquier momento del día.', 
         modal: '#item2', 
         modal_id: 'item2',
       },

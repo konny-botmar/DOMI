@@ -87,6 +87,10 @@ button{
     font-size: 18px;
 }
 
+.boton:hover{
+    box-shadow: 0 5px 25px brown ;
+}
+
 p a{
     color: rgb(62, 120, 62);
 }

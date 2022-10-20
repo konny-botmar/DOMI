@@ -13,7 +13,7 @@
 
             <div class="description">
                 <h3>Natalia Torres</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores optio veritatis quas quaerat rerum necessitatibus ex fugiat dolorum officia quidem mollitia, totam accusantium saepe neque alias ea sequi deleniti!</p>
+                <p>Soy una mujer que por sus grandes ocupaciones dia a dia no tengo mucho tiempo para salir de compras, soy mama soltera e independiente por eso DOMI ha sido la plataforma perfecta para mi, permitiendome adquirir esos productos de mis necesidades diarias en la puerta de mi casa.</p>
             </div>
         </div>
         <div class="card">
@@ -26,7 +26,7 @@
 
             <div class="description">
                 <h3>Oscar Ortiz</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores optio veritatis quas quaerat rerum necessitatibus ex fugiat dolorum officia quidem mollitia, totam accusantium saepe neque alias ea sequi deleniti!</p>
+                <p>Soy una persona dedicada al trabajo y este suele absorber gran parte de mi tiempo por lo que trato que el resto sea para mi familia, el hecho de no tener que ir a hacer las colas al supermercado, la farmacia, entre otros, me ha permitido tener mas tiempo para ellos sin estar haciendo tareas engorrosas que se facilitan actualmente gracias a DOMI.</p>
             </div>
         </div>
         <div class="card">
@@ -39,7 +39,7 @@
 
             <div class="description">
                 <h3>Sofia Agudelo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non asperiores optio veritatis quas quaerat rerum necessitatibus ex fugiat dolorum officia quidem mollitia, totam accusantium saepe neque alias ea sequi deleniti!</p>
+                <p>Hola, soy sofia desde que DOMI llego a pensilvania cambio mi vida, antes pedir la comida a domicilio era sumamente complejo no todos los restaurantes tenian esta opción pero ahora con la plataforma puedo pedir en el restaurante que quiera a la hora que necesite, mi espectro para escoger que quiero comer dia a dia se ha expandido.</p>
             </div>
         </div>
     </section>
@@ -122,7 +122,7 @@ h1{
 }
 
 .card .description p{
-    margin-top: 15px;
+    margin-top: 10px;
 }
 </style>
  

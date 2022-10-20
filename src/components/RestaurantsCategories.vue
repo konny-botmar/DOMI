@@ -29,7 +29,7 @@ export default ({
       imagenes: [{
         imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/2K7FHLJP75FGRO2LKQMCFKFKWA.jpg',
         title:'De la montaña',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'Nuestro restaurante ofrece la mejor comida y el mejor servicio de la ciudad. Tenemos una gran variedad de platos para elegir, y nuestros camareros estarán encantados de ayudarle a encontrar el perfecto para usted. No importa si usted está buscando una buena comida para llevar o para cenar, usted siempre encontrará lo que busca en nuestro restaurante.', 
         modal: '#item1', 
         modal_id: 'item1',
         ruta: '/Store',
@@ -37,7 +37,7 @@ export default ({
       {
         imagen: 'https://cloudfront-us-east-1.images.arcpublishing.com/elespectador/6W4NBCLZ75DEFBCEUZHYDCNDZI.jpg',
         title:'La tablita', 
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'Nuestro restaurante lleva mas de 30 años en funcionamiento con esto te garantizamos la calidad de nuestros productos y la satisfacción a tu paladar', 
         modal: '#item2', 
         modal_id: 'item2',
         ruta: '/Restaurantes',
@@ -45,7 +45,7 @@ export default ({
       {
         imagen: 'https://media-cdn.tripadvisor.com/media/photo-s/0b/05/aa/05/pimento-cucina-italiana.jpg',
         title:'Tahona', 
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'En nuestro restaurante nos enfocamos en ofrecer platillos para el deleite de grandes y chicos con los mejores precios y la mejor atención. No te lo pierdas.', 
         modal: '#item3', 
         modal_id: 'item3',
         ruta: '/Panaderias',

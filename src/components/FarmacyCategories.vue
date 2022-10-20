@@ -26,7 +26,7 @@ export default ({
       imagenes: [{
         imagen: 'https://www.plantadoce.com/files/2020/20_recursos/equipamiento/farmacia-productos-728.jpg',
         title:'Donde Mauricio',
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'En nuestra farmacia estamos preparados para atenderte con el mayor de los gustos y con una gran variedad de productos medicos, de salud, belleza, entre otros.', 
         modal: '#item1', 
         modal_id: 'item1',
         ruta: './Restaurantes',
@@ -34,14 +34,14 @@ export default ({
       {
         imagen: 'https://retailers.mx/revista/wp-content/uploads/2021/07/counter.-juarez-coacalco.23062021.-by.arocha100.jpg',
         title:'Drogas la Rebaja', 
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'Aqui te brindamos asesoria para toma de medicamentos y te ofrecemos los mejores precios del mercado', 
         modal: '#item2', 
         modal_id: 'item2',
       },
       {
         imagen: 'https://todocedritos.com/empresas_negocios_establecimientos_cedritos_bogota/drogueria-papeleria-lisboa-farmacia-cedritos-bogota-200b.jpg',
         title:'Drogueria Mercaldas', 
-        descripcion: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum sequi, autem repellendus dolor libero, hic dolore quae, facilis ea et quibusdam? Facilis, distinctio et ex eius deserunt odio vero quam!', 
+        descripcion: 'La mejor atención combinada con una cantidad de productos no solo de grandes laboratorios sino también naturales para las personas que prefieran la medicina alternativa.', 
         modal: '#item3', 
         modal_id: 'item3',
       },],
